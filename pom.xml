@@ -25,48 +25,6 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-		<!-- SPRING BOOT - NEO4J DEPENDENCIES -->
-<!--		<dependency>-->
-<!--			<groupId>org.springframework.boot</groupId>-->
-<!--			<artifactId>spring-boot-starter-data-neo4j</artifactId>-->
-<!--		</dependency>-->
-		<!-- SPRING - NEO4J DEPENDENCIES -->
-		<dependency>
-			<groupId>org.springframework.data</groupId>
-			<artifactId>spring-data-neo4j</artifactId>
-		</dependency>
-<!--		<dependency>-->
-<!--			<groupId>org.springframework.data</groupId>-->
-<!--			<artifactId>spring-data-neo4j</artifactId>-->
-<!--			<version>5.1.12.RELEASE</version>-->
-<!--			<scope>compile</scope>-->
-<!--			<exclusions>-->
-<!--				<exclusion>-->
-<!--					<artifactId>jcl-over-slf4j</artifactId>-->
-<!--					<groupId>org.slf4j</groupId>-->
-<!--				</exclusion>-->
-<!--			</exclusions>-->
-<!--		</dependency>-->
-
-		<!-- NEO4J DRIVER DEPENDENCIES -->
-<!--		<dependency>-->
-<!--			<groupId>org.neo4j.driver</groupId>-->
-<!--			<artifactId>neo4j-java-driver-spring-boot-starter</artifactId>-->
-<!--			<version>4.1.1.1</version>-->
-<!--		</dependency>-->
-
-		<!-- OGM DRIVER DEPENDENCIES -->
-		<!-- add this dependency if you want to use the embedded driver -->
-<!--		<dependency>-->
-<!--			<groupId>org.neo4j</groupId>-->
-<!--			<artifactId>neo4j-ogm-embedded-driver</artifactId>-->
-<!--		</dependency>-->
-		<!-- add this dependency if you want to use the HTTP driver -->
-<!--		<dependency>-->
-<!--			<groupId>org.neo4j</groupId>-->
-<!--			<artifactId>neo4j-ogm-http-driver</artifactId>-->
-<!--		</dependency>-->
-
 		<!-- EMBEDDED NEO4J DEPENDENCIES -->
 		<dependency>
 			<groupId>org.neo4j</groupId>
@@ -77,45 +35,7 @@
 			<groupId>org.neo4j.procedure</groupId>
 			<artifactId>apoc</artifactId>
 			<version>4.0.0.13</version>
-<!--			<scope>test</scope>-->
 		</dependency>
-
-		<!-- OTHER DEPENDENCIES -->
-		<dependency>
-			<groupId>com.fasterxml.jackson.dataformat</groupId>
-			<artifactId>jackson-dataformat-csv</artifactId>
-			<version>2.12.1</version>
-		</dependency>
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<version>1.18.16</version>
-			<scope>provided</scope>
-		</dependency>
-
-		<!-- TEST DEPENDENCIES -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-			<exclusions>
-				<exclusion>
-					<groupId>org.junit.vintage</groupId>
-					<artifactId>junit-vintage-engine</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency>
-<!--		<dependency>-->
-<!--			<groupId>org.neo4j.test</groupId>-->
-<!--			<artifactId>neo4j-harness</artifactId>-->
-<!--			<version>3.5.23</version>-->
-<!--			<scope>test</scope>-->
-<!--		</dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>jakarta.persistence</groupId>-->
-<!--            <artifactId>jakarta.persistence-api</artifactId>-->
-<!--            <version>2.2.3</version>-->
-<!--        </dependency>-->
     </dependencies>
 
 	<dependencyManagement>
